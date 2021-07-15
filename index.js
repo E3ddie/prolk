@@ -44,11 +44,49 @@
 
 // tots()
 
-let lapsComp = 0
-function laps() {
-    lapsComp += 1
-    console.log(lapsComp)
+// let lapsComp = 0
+// function laps() {
+//     lapsComp += 1
+//     console.log(lapsComp)
+// }
+// laps()
+// laps()
+// laps()
+// let countEl = document.getElementById("count-el")
+// let count = 0
+
+function increment() {
+    count +=1
+    countEl.innerText = count
+    console.log(count)
 }
-laps()
-laps()
-laps()
+
+function save() {
+    console.log(count)
+}
+// let username = "per"
+// console.log(username)
+
+// let message = " You have a New notification"
+// let messageToUser = (message + ", " + username + "!")
+
+// console.log(messageToUser)
+  
+// // let messageToUser = "We have logged"
+// // console.log(messageToUser)
+
+// let name = "Thor"
+// let greeting = "Hi, my name is "
+// let myGreeting = greeting + name
+// console.log(myGreeting)
+
+// let n = 4+6
+// console.log(n)
+
+// let welcomeEl = document.getElementById("welcome-el")
+// let name = "Thor"
+// let greetings = "Welcome Back "
+// welcomeEl.innerText = greetings + name
+
+
+// welcomeEl.innerText = welcomeEl.innerText + "🥸"
